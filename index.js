@@ -16,25 +16,25 @@ const app = "I don't do much."
   }
 
   function appendKitten(name) {
-    newKittens = [...kittens];
+    let newKittens = [...kittens];
     newKittens.push(name);
     return newKittens;
   }
   
   function prependKitten(name){
-    newKittens = [...kittens];
+    let newKittens = [...kittens];
     newKittens.unshift(name);
     return newKittens;
   }
   
   function removeLastKitten() {
-    newKittens = [...kittens];
+    let newKittens = [...kittens];
     newKittens.pop();
     return newKittens;
   }
 
   function removeFirstKitten() {
-    newKittens = [...kittens];
+    let newKittens = [...kittens];
     newKittens.shift(name);
     return newKittens;
   }
